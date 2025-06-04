@@ -1,0 +1,20 @@
+app:
+  data:
+    test: Client data from config server
+    
+security:
+  roles:
+    - ADMIN
+    - USER_ROLE
+    - MANAGER
+  claims:
+    ADMIN:
+      - read:all
+      - write:all
+      - delete:all
+    USER_ROLE:
+      - read:own
+      - write:own
+    MANAGER:
+      - read:all
+      - write:all
