@@ -1,6 +1,6 @@
 app:
   data:
-    test: Updated client service data from config server
+    test: Client service data from config server
     
 security:
   roles:
